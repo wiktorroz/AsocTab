@@ -36,13 +36,13 @@ void assignValuesToPointer(DB& lDb){
 }
 
 void test(DB& libraryDatabase){
-    cout << "       Tests for Library       " << endl << endl;
-    cout << "          Adding Test          " <<  endl << endl;
+    cout << "Tests for Library" << endl << endl;
+    cout << "Adding Test" <<  endl << endl;
     addTest(libraryDatabase);
     cout << "\nResult:" << endl << endl;
     cout << libraryDatabase << endl;
-    cout << "          Assign Test          " <<  endl << endl;
+    cout << "Assign Test" <<  endl << endl;
     assignValuesToPointer(libraryDatabase);
-    cout << "\n           Database            " <<  endl << endl;
+    cout << "\nDatabase" <<  endl << endl;
     cout << libraryDatabase << endl;
 }
